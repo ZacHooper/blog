@@ -6,6 +6,8 @@
 - [ ] Plan May post
 - [ ] Add project content
 - [ ] Add downloadable CV
+- [ ] Design own theme using Nightfall & Terminal as inspiration
+    ie ditch the nightfall base in favour of a custom one
 
 ## Theme
 

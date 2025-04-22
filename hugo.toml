@@ -54,3 +54,7 @@ color = "orange"
 [markup]
   [markup.highlight]
     style = "rose-pine"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
