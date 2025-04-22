@@ -1,6 +1,6 @@
 +++
 date = '2025-04-21T19:51:23+10:00'
-draft = true
+draft = false
 title = 'Multiple Geographic Regions with single Dataform repo'
 +++
 
