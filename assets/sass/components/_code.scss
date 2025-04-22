@@ -1,0 +1,69 @@
+@use "../utils/variables" as v;
+
+.highlight {
+  background: v.$backgroundDark;
+  border-width: 4px;
+  border-color: v.$orange;
+  border-style: double;
+}
+
+pre code {
+  font-family: v.$fontCode;
+  font-size: 75%;
+  display: block;
+  background: v.$backgroundDark;
+  padding: 10px;
+  overflow: auto;
+}
+
+code {
+  font-family: v.$fontCode;
+  font-size: 95%;
+  color: v.$orange;
+}
+
+.code-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: color-mix(in srgb, v.$backgroundDark 5%, transparent);
+  border-bottom: 1px solid v.$orange;
+  color: v.$orange;
+  text-transform:uppercase;
+  font-size: calc(var(--font-size) * 0.8);
+  font-family: v.$fontCode;
+  padding: 6px 10px;
+  line-height: 1;
+}
+
+.copy-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 8px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: v.$fontCode;
+  color: v.$white;
+  border: 1px solid color-mix(in srgb, v.$white 15%, transparent);
+  appearance: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.code-title .copy-button {
+  z-index: 1;
+  background: v.$backgroundDark;
+}
+
+.code-title:hover .copy-button {
+  display: inline-block;
+}
+
+.code-title .copy-button:hover {
+  background: v.$orange;
+  color: v.$backgroundDark;
+}
