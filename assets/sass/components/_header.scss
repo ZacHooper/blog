@@ -17,6 +17,9 @@
   display: flex;
   justify-content: center;
   flex-shrink: 0;
+  border-width: 0 0 1px 0;
+  border-style: dashed;
+  border-color: v.$white;
 }
 
 .headerLinks {
